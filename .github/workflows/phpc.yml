@@ -42,7 +42,7 @@ jobs:
         path: vendor
 
     - name: Artisan
-      run: php artisan key:generate]
+      run: php artisan key:generate
       
     - name: Cachets assets
       run: php artisan vendor:publish --tag=cachet
