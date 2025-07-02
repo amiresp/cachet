@@ -41,6 +41,15 @@ jobs:
         name: vendor
         path: vendor
 
+    - name: Artisan
+      run: php artisan key:generate]
+      
+    - name: Cachets assets
+      run: php artisan vendor:publish --tag=cachet
+
+    - name: Cachets Migrate
+      run: php artisan migrate
+
     # Add a test script to composer.json, for instance: "test": "vendor/bin/phpunit"
     # Docs: https://getcomposer.org/doc/articles/scripts.md
 
