@@ -7,7 +7,7 @@
 /public/js/filament
 /public/vendor/cachethq/cachet
 /storage/*.key
-/vendor
+# /vendor
 .env
 .env.backup
 .env.production
