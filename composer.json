@@ -1,5 +1,6 @@
 {
     "name": "cachethq/cachet",
+      "description": "Open source status page system for better incident communication.",
     "type": "project",
     "license": "proprietary",
     "authors": [
